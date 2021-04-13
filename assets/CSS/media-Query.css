@@ -1,0 +1,39 @@
+@media screen and (max-width:970px) {
+    .column-nav1 {
+        display: inline-block;
+    }
+    .column-nav2 {
+        display: flex;
+        flex-direction: column;
+    }
+    .column-medium {
+        font-size: 1em;
+    }
+    .column-icon a img {
+        height: 30px;
+    }
+    .column-about1 {
+        width: 100%;
+        height: 50%;
+    }
+    .column-about2 {
+        width: 100%;
+        height: 50%;
+        padding: 0 15px;
+        font-size: 25px;
+    }
+    .column-portfolio {
+        flex-wrap: wrap;
+        width: 50%;
+        overflow: hidden;
+    }
+    .column-skills1 img {
+        height: 70px;
+    }
+    .column-skills2 img {
+        height: 70px;
+    }
+    .container {
+        min-height: 100vh;
+    }
+}

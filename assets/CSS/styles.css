@@ -1,0 +1,354 @@
+/* Generalidades */
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Kiwi Maru', serif;
+}
+
+h1 {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+h2 {
+    font-size: 26px;
+    font-weight: bold;
+}
+
+h3 {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+p {
+    font-size: 16px;
+}
+
+
+/* ---------------------------------------------------------------------------------------------------------------- */
+
+
+/* Comienzo de inicio  */
+
+.container-header {
+    background-image: url(https://s3-us-west-2.amazonaws.com/files.bradengelhardt.com/brad-bg-main.jpg);
+    background-size: cover;
+    height: 100vh;
+}
+
+
+/* barra de navegacion */
+
+.nav-bar {
+    width: 100%;
+    height: 10%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.column-nav1 {
+    width: 5%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.column-nav2 {
+    width: 30%;
+    color: ghostwhite;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 1.2rem;
+}
+
+.column-nav2 a:hover {
+    color: burlywood;
+    text-decoration: underline;
+}
+
+.icon-nav {
+    height: 4rem;
+}
+
+
+/* contenido del medio (Header) */
+
+.contenedor-medium {
+    height: 78%;
+}
+
+.fila-medium {
+    width: 80%;
+    height: 80%;
+}
+
+.column-medium {
+    min-height: 30%;
+    min-width: 30%;
+    text-align: center;
+}
+
+
+/* Contenido de los iconos */
+
+.row-end {
+    height: 10%;
+}
+
+.icon-size {
+    width: 4rem;
+}
+
+.column-icon {
+    width: 33.3%;
+}
+
+.column-orientation1 {
+    text-align: end;
+}
+
+.column-orientation2 {
+    text-align: center;
+}
+
+
+/* Fin de inicio */
+
+
+/* ---------------------------------------------------------------------------------------------------------------- */
+
+
+/* Inicio de about me */
+
+.title-about {
+    height: 20%;
+}
+
+.row-aboutMe {
+    width: 100%;
+    height: 60%;
+}
+
+.column-about1 {
+    width: 50%;
+    height: 100%;
+    text-align: center;
+}
+
+.column-about1 img {
+    border-radius: 6px;
+    height: 70%;
+}
+
+.column-about2 {
+    width: 50%;
+    height: 100%;
+    text-align: center;
+}
+
+
+/* Fin de About Me */
+
+
+/* ---------------------------------------------------------------------------------------------------------------- */
+
+
+/* Inicio de Skills */
+
+.row-skills2 {
+    width: 70%;
+    height: 90%;
+}
+
+.row-skills2 img {
+    height: 7rem;
+}
+
+.column-skills1 {
+    width: 45%;
+}
+
+.column-skills2 {
+    width: 45%;
+}
+
+
+/* Fin de Skills */
+
+
+/* ---------------------------------------------------------------------------------------------------------------- */
+
+
+/* Inicio de Portfolio */
+
+.container-Of-Rows {
+    width: 90%;
+    height: 100%;
+}
+
+.row-portfolio1 {
+    width: 100%;
+    height: 20%;
+}
+
+.title-portfolio1 {
+    width: 100%;
+    height: 100%;
+}
+
+.row-portfolio2 {
+    width: 100%;
+    height: 80%;
+}
+
+.min-row-portfolio {
+    height: 50%;
+    width: 100%;
+}
+
+.column-portfolio {
+    height: 90%;
+    width: 45%;
+    border: solid 2px #DCDCDC;
+}
+
+.column-portfolio img {
+    width: 24.6rem;
+    height: 12rem;
+}
+
+
+/* Fin de Portfolio */
+
+
+/* ---------------------------------------------------------------------------------------------------------------- */
+
+
+/* utilidades */
+
+
+/* ------------------------------------------------ */
+
+
+/* Display */
+
+.display-flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.center {
+    justify-content: center;
+    align-items: center;
+}
+
+.space-between {
+    justify-content: space-between;
+}
+
+.space-around {
+    justify-content: space-around;
+}
+
+.flex-wrap {
+    flex-wrap: wrap;
+}
+
+.flex-end {
+    justify-content: flex-end;
+}
+
+
+/* ------------------------------------------------ */
+
+
+/* Color de Textos */
+
+.text-white {
+    color: ghostwhite;
+    text-decoration: none;
+}
+
+.text-red {
+    color: #FF6363;
+}
+
+.text-color1 {
+    color: #484848;
+}
+
+.text-grey {
+    color: dimgray;
+}
+
+.text-green {
+    color: #0F7425;
+}
+
+
+/* ------------------------------------------------ */
+
+
+/* Tamaños */
+
+.mini-size {
+    font-size: 1.2rem;
+}
+
+.min-size {
+    width: 100%;
+    height: 20%;
+}
+
+.medium-size {
+    width: 100%;
+    height: 50%;
+}
+
+.container {
+    height: 100vh;
+}
+
+
+/* ------------------------------------------------ */
+
+
+/* Colores de fondo */
+
+.back-grey {
+    background-color: #fdfcfb;
+}
+
+.bg-about {
+    background-color: #F8F2EC;
+}
+
+
+/* ------------------------------------------------ */
+
+
+/* Margins */
+
+.margin-top {
+    margin-top: 15px;
+}
+
+.margin-top-medium {
+    margin-top: 30px;
+}
+
+
+/* ------------------------------------------------ */
+
+
+/* Alineacion y decoracion de textos */
+
+.align-text {
+    text-align: center;
+}
+
+.text-decoratioN {
+    text-decoration: none;
+}
