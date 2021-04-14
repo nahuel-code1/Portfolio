@@ -16,56 +16,62 @@
 
     <!-- Comienzo de Inicio -->
 
-    <header class="container-header">
+    <header id="Inicio" class="container img-header">
 
         <!-- BARRA DE NAVEGACION -->
 
-        <div class="nav-bar">
+        <nav class="row nav-bar display-flex">
 
-            <div class="column-nav1 text-white">
+            <div class="col-6">
 
-                <img class="icon-nav" src="./assets/images/iconoPrincipal.png.png" alt="icono de la navegacion">
+                <div class="text-white sides-padding vertical-padding">
 
-            </div>
-
-
-            <div class="column-nav2">
-
-                <a href="#About" class="text-white mini-size efects-nav">
-                    About Me
-                </a>
-
-                <a href="#Skills" class="text-white mini-size efects-nav">
-                    Skills
-                </a>
-
-                <a href="#Portfolio" class="text-white mini-size efects-nav">
-                    Portfolio
-                </a>
-
-                <a href="#Contact" class="text-white mini-size efects-nav">
-                    Contact
-                </a>
+                    <a href="#Inicio">
+                        <img class="icon-nav" src="./assets/images/iconoPrincipal.png.png" alt="icono de la navegacion">
+                    </a>
+                </div>
 
             </div>
 
 
+            <div class="col-6 display-flex flex-end center">
 
-        </div>
+                <div class="sides-padding">
+
+                    <a href="#About" class="text-white mini-size">
+                     About Me
+                    </a>
+
+                    <a href="#Skills" class="text-white mini-size">
+                      Skills
+                    </a>
+
+                    <a href="#Portfolio" class="text-white mini-size">
+                      Portfolio
+                    </a>
+
+                    <a href="#Contact" class="text-white mini-size">
+                      Contact
+                    </a>
+
+                </div>
+            </div>
+
+        </nav>
 
         <!-- Contenido del MEDIO -->
 
-        <div class="display-flex center contenedor-medium margin-top">
+        <div class="row title-heigth display-flex center align-text">
 
-            <div class="fila-medium display-flex center">
+            <div class="col-12">
 
-                <div class="column-medium text-white">
+                <div class="text-white">
 
                     <h1>
                         Nahuel <span class="text-red">/</span> Mereles
                     </h1>
 
-                    <h2>
+                    <h2 class="top-padding">
                         Full Stack Web Developer
                     </h2>
 
@@ -75,37 +81,42 @@
 
         </div>
 
+
         <!-- Contenido de los iconos -->
 
-        <div class="row-end display-flex space-between">
+        <div class="row icon-header-heigth">
 
-            <div class="column-icon column-orientation1">
+            <div class="col-12 display-flex center">
 
-                <a href="https://twitter.com/NahuelMerelesR1">
+                <div class="border-circle">
 
-                    <img src="./assets/images/gorjeo.png" alt="logo de twitter" class="icon-size">
+                    <a href="https://twitter.com/NahuelMerelesR1">
 
-                </a>
+                        <img src="./assets/images/gorjeo.png" alt="logo de twitter">
 
-            </div>
+                    </a>
 
-            <div class="column-icon column-orientation2">
+                </div>
 
-                <a href="https://www.linkedin.com/in/nahuel-mereles-rodriguez-685b75203/">
+                <div class="sides-margin border-circle">
 
-                    <img src="./assets/images/linkedin.png" alt="Logo de linkedin" class="icon-size">
+                    <a href="https://www.linkedin.com/in/nahuel-mereles-rodriguez-685b75203/">
 
-                </a>
+                        <img src="./assets/images/linkedin.png" alt="Logo de linkedin">
 
-            </div>
+                    </a>
 
-            <div class="column-icon">
+                </div>
 
-                <a href="https://github.com/nahuel-code1">
+                <div class="border-circle">
 
-                    <img src="./assets/images/github.png" alt="Logo de github" class="icon-size">
+                    <a href="https://github.com/nahuel-code1">
 
-                </a>
+                        <img src="./assets/images/github.png" alt="Logo de github">
+
+                    </a>
+
+                </div>
 
             </div>
 
@@ -119,42 +130,49 @@
 
     <!-- Inicio de About Me -->
 
-    <section id="About" class="container bg-about">
+    <section id="About" class="container bg-color-about">
 
+        <div class="row tittle-sections display-flex center align-text">
 
+            <div class="col-12 text-red">
 
-        <div class="display-flex center title-about text-red">
+                <h2>
+                    About Me
+                </h2>
 
-            <h2>About Me</h2>
+            </div>
 
         </div>
 
-        <div class="display-flex row-aboutMe">
+        <div class="row content-sections display-flex">
 
-
-            <div class="column-about1 display-flex center">
-                <img src="https://th.bing.com/th/id/OIP.eeAnVuItFFYQlYRA4LE6SgAAAA?pid=ImgDet&rs=1" alt="Foto personal">
-            </div>
-
-            <div class="column-about2 display-flex center">
+            <div class="col-6 content-sections display-flex center">
 
                 <div>
+                    <img src="./assets/images/pexels-andrea-piacquadio-927022.jpg" alt="Foto personal">
+                </div>
 
-                    <div class="text-color1">
-                        <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere obcaecati </h3>
-                    </div>
+            </div>
 
-                    <div class="margin-top text-color1">
-                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iusto, illo necessitatibus. Ut molestias eligendi alias commodi esse cupiditate excepturi voluptatum ad, vitae qui! Fuga aut ipsum quam placeat illo dignissimos?</p>
-                    </div>
+            <div class="col-6 display-flex center">
+
+                <div class="card total-padding total-margin">
+
+                    <h3 class="align-text">
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                    </h3>
+                    <p class="total-padding">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque vero cum inventore assumenda doloremque, unde molestias itaque ipsa exercitationem fuga nam ipsam quis autem nostrum incidunt, maxime explicabo deserunt. Reiciendis.
+                    </p>
+                    <p class="total-padding">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint, quia minima assumenda dolorem laboriosam tempora quasi vero eius, fugiat tempore animi pariatur explicabo. Eligendi, ut? Incidunt quod modi ipsam officiis?
+                    </p>
 
                 </div>
 
             </div>
 
         </div>
-
-
 
     </section>
 
